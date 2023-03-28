@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web weather</title>
+    <script src="webWeather.js"></script>
+    <link rel="stylesheet" href="webWeather.css"/>
+</head>
+    
+    <body>
+        <header><strong>Web weather</strong></header>
+        <div class="weather_app">
+        <div class="var_1"> <b>Weather using location</b>
+            <button id="btn-location">Use my location</button>
+            <p class="location-error-message">Error getting your location!</p>
+        </div>
+            <div id="city-list">            
+            </div>
+        
+        
+      
+    <div class="var_2"> <b>Upcoming hours/days </b>
+        <input type="text" id="city2" placeholder="Write a city name"/>
+        <button id="click-me">Click me</button> <br>
+        
+        <div class="var_2-container">
+            <p class="click-error-message">Error finding your city!</p>
+           <div class="current-day-container">
+            <div id="current-day"></div>
+    
+                <div class="hour-list"></div>
+    
+                
+            </div>
+                
+                <div class="days-list"></div>
+                    
+        </div>
+            
+    </div>
+       
+    </div>
+
+    </body>
+    

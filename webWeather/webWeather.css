@@ -1,0 +1,84 @@
+.location-error-message, .click-error-message{
+    display: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.weather_app {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}
+
+header {
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(4, 4, 212, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+body {
+    font-size: 18px;
+    background-color:rgb(15, 165, 215);
+    margin: 0;
+    padding: 0;
+    
+}
+
+#city-list {
+    font-size: 14px;
+    padding-left:12px;
+    background-color:rgb(15, 165, 215);
+}
+
+.current-day-container{
+    display: flex;
+    font-size: 14px;
+    padding-top: 12px;
+    justify-content: space-between;
+    
+}
+.city {
+    padding-left: 32px;
+}
+
+#current-day {
+    background: rgba(4, 4, 212, 0.6);
+}
+.date {
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+.hour-list {
+    display: flex;
+    background: rgb(27, 112, 209);
+    padding-top: 52px;
+}
+
+.hour-list .time {
+    padding-top: 52px;
+    font-weight: bold;
+}
+
+.days-list {
+    display: flex;
+    font-size: 14px;
+    margin-top: 6px;
+    justify-content: space-between;
+    background-color: rgb(21, 131, 214, 1);
+}
+
+p {
+    padding: 6px;
+}
